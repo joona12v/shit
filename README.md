@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("oceann", "Ocean")
+local Window = Library.CreateLib("oceann", "BloodTheme")
 local Combat = Window:NewTab("Combat")
 local Movement = Window:NewTab("Movement")
 local Other = Window:NewTab("Other")
