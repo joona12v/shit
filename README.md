@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("oceann", "BloodTheme")
+local Window = Library.CreateLib("Tulpical", "Midnight")
 local Combat = Window:NewTab("Combat")
 local Movement = Window:NewTab("Movement")
 local Other = Window:NewTab("Other")
@@ -34,7 +34,7 @@ end)
 
 
 OtherSection:NewKeybind("Trashtalk", "annoy kids", Enum.KeyCode.T, function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Get good, Get oceann!", "All")
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Get good, Get Tulpical!", "All")
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Are you sniffing the ground?", "All")
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Start aiming at me, not the sky.", "All")
 end)
